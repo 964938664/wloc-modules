@@ -1,0 +1,13 @@
+#!name=WLOC 路由规则（个人备用）
+#!desc=Apple 定位接口直连；个人备用 Worker 走代理
+#!author=964938664
+#!homepage=https://github.com/964938664/wloc-modules
+#!category=Tools
+
+[Rule]
+# 备用快捷指令调用的个人 Worker：通过代理访问，避免直连 DNS 污染或连接失败
+DOMAIN,wloc-spoofer.mihuan-lab.workers.dev,PROXY
+
+# Apple WLOC 接口：保持直连，让代理模块正常拦截并写入定位结果
+DOMAIN,gs-loc.apple.com,DIRECT
+DOMAIN,gs-loc-cn.apple.com,DIRECT
