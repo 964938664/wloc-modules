@@ -11,3 +11,6 @@ DOMAIN,wloc-spoofer.mihuan-lab.workers.dev,PROXY
 # Apple WLOC 接口：保持直连，让代理模块正常拦截并写入定位结果
 DOMAIN,gs-loc.apple.com,DIRECT
 DOMAIN,gs-loc-cn.apple.com,DIRECT
+DOMAIN,gsp-ssl.ls.apple.com,DIRECT
+DOMAIN,bluedot.is.autonavi.com,DIRECT
+DOMAIN,bluedot.is.autonavi.com.gds.alibabadns.com,DIRECT
